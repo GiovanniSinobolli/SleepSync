@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20AD52D7-CF7C-4C44-9E0C-B922AB8D61C3}|SleepSync\\SleepSync.csproj|c:\\users\\sinob\\documents\\programming\\semester-3\\.net\\sleepsync\\sleepsync\\sleepsync\\models\\moodinsights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20AD52D7-CF7C-4C44-9E0C-B922AB8D61C3}|SleepSync\\SleepSync.csproj|solutionrelative:sleepsync\\models\\moodinsights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sinob\\AppData\\Local\\SourceServer\\be453886bc05ed7ec4bc2e42c76042a82cd2e5272b373f5e47c6db81545fbc35\\SleepSync\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20AD52D7-CF7C-4C44-9E0C-B922AB8D61C3}|SleepSync\\SleepSync.csproj|c:\\users\\sinob\\documents\\programming\\semester-3\\.net\\sleepsync\\sleepsync\\sleepsync\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{20AD52D7-CF7C-4C44-9E0C-B922AB8D61C3}|SleepSync\\SleepSync.csproj|solutionrelative:sleepsync\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\SleepSync\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SleepSync\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoodInsights.cs",
+              "DocumentMoniker": "C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\SleepSync\\Models\\MoodInsights.cs",
+              "RelativeDocumentMoniker": "SleepSync\\Models\\MoodInsights.cs",
+              "ToolTip": "C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\SleepSync\\Models\\MoodInsights.cs",
+              "RelativeToolTip": "SleepSync\\Models\\MoodInsights.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:40:15.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sinob\\AppData\\Local\\SourceServer\\be453886bc05ed7ec4bc2e42c76042a82cd2e5272b373f5e47c6db81545fbc35\\SleepSync\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\be453886bc05ed7ec4bc2e42c76042a82cd2e5272b373f5e47c6db81545fbc35\\SleepSync\\Program.cs",
+              "ToolTip": "C:\\Users\\sinob\\AppData\\Local\\SourceServer\\be453886bc05ed7ec4bc2e42c76042a82cd2e5272b373f5e47c6db81545fbc35\\SleepSync\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\be453886bc05ed7ec4bc2e42c76042a82cd2e5272b373f5e47c6db81545fbc35\\SleepSync\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T17:28:26.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\SleepSync\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SleepSync\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\SleepSync\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SleepSync\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T16:47:57.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\SleepSync\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SleepSync\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\SleepSync\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SleepSync\\Views\\Home\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T16:47:44.448Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
