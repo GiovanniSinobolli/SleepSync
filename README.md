@@ -27,4 +27,5 @@
 - [ ] User Authentication & Authorization
 - [ ] Include AI Insight assistant
 
-
+# ERD（Entity Relationship Diagram）
+![ER Diagram](Docs/erd.png)
