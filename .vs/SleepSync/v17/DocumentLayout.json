@@ -1,20 +1,32 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\",
+  "WorkspaceRootPath": "C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{098E3714-8AC7-478C-B99A-CA3E7E6BF5BF}|SleepSync\\SleepSync.csproj|c:\\users\\sinob\\documents\\programming\\semester-3\\.net\\sleepsync\\sleepsync\\sleepsync\\models\\moodinsights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{098E3714-8AC7-478C-B99A-CA3E7E6BF5BF}|SleepSync\\SleepSync.csproj|c:\\users\\mario\\asp.net\\group project\\sleepsync\\sleepsync\\sleepsync.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{098E3714-8AC7-478C-B99A-CA3E7E6BF5BF}|SleepSync\\SleepSync.csproj|solutionrelative:sleepsync\\sleepsync.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{098E3714-8AC7-478C-B99A-CA3E7E6BF5BF}|SleepSync\\SleepSync.csproj|c:\\users\\mario\\asp.net\\group project\\sleepsync\\sleepsync\\models\\moodinsights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{098E3714-8AC7-478C-B99A-CA3E7E6BF5BF}|SleepSync\\SleepSync.csproj|solutionrelative:sleepsync\\models\\moodinsights.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sinob\\AppData\\Local\\SourceServer\\be453886bc05ed7ec4bc2e42c76042a82cd2e5272b373f5e47c6db81545fbc35\\SleepSync\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{098E3714-8AC7-478C-B99A-CA3E7E6BF5BF}|SleepSync\\SleepSync.csproj|c:\\users\\sinob\\documents\\programming\\semester-3\\.net\\sleepsync\\sleepsync\\sleepsync\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{098E3714-8AC7-478C-B99A-CA3E7E6BF5BF}|SleepSync\\SleepSync.csproj|c:\\users\\mario\\asp.net\\group project\\sleepsync\\sleepsync\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{098E3714-8AC7-478C-B99A-CA3E7E6BF5BF}|SleepSync\\SleepSync.csproj|solutionrelative:sleepsync\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{098E3714-8AC7-478C-B99A-CA3E7E6BF5BF}|SleepSync\\SleepSync.csproj|c:\\users\\sinob\\documents\\programming\\semester-3\\.net\\sleepsync\\sleepsync\\sleepsync\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{098E3714-8AC7-478C-B99A-CA3E7E6BF5BF}|SleepSync\\SleepSync.csproj|c:\\users\\mario\\asp.net\\group project\\sleepsync\\sleepsync\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{098E3714-8AC7-478C-B99A-CA3E7E6BF5BF}|SleepSync\\SleepSync.csproj|solutionrelative:sleepsync\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -25,40 +37,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-02T06:53:31.823Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MoodInsights.cs",
-              "DocumentMoniker": "C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\SleepSync\\Models\\MoodInsights.cs",
-              "RelativeDocumentMoniker": "SleepSync\\Models\\MoodInsights.cs",
-              "ToolTip": "C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\SleepSync\\Models\\MoodInsights.cs",
-              "RelativeToolTip": "SleepSync\\Models\\MoodInsights.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T15:40:15.544Z",
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-07-02T00:48:44.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "SleepSync.csproj",
+              "DocumentMoniker": "C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\SleepSync\\SleepSync.csproj",
+              "RelativeDocumentMoniker": "SleepSync\\SleepSync.csproj",
+              "ToolTip": "C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\SleepSync\\SleepSync.csproj",
+              "RelativeToolTip": "SleepSync\\SleepSync.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-02T00:41:09.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MoodInsights.cs",
+              "DocumentMoniker": "C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\SleepSync\\Models\\MoodInsights.cs",
+              "RelativeDocumentMoniker": "SleepSync\\Models\\MoodInsights.cs",
+              "ToolTip": "C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\SleepSync\\Models\\MoodInsights.cs",
+              "RelativeToolTip": "SleepSync\\Models\\MoodInsights.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:40:15.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sinob\\AppData\\Local\\SourceServer\\be453886bc05ed7ec4bc2e42c76042a82cd2e5272b373f5e47c6db81545fbc35\\SleepSync\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\be453886bc05ed7ec4bc2e42c76042a82cd2e5272b373f5e47c6db81545fbc35\\SleepSync\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\sinob\\AppData\\Local\\SourceServer\\be453886bc05ed7ec4bc2e42c76042a82cd2e5272b373f5e47c6db81545fbc35\\SleepSync\\Program.cs",
               "ToolTip": "C:\\Users\\sinob\\AppData\\Local\\SourceServer\\be453886bc05ed7ec4bc2e42c76042a82cd2e5272b373f5e47c6db81545fbc35\\SleepSync\\Program.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\be453886bc05ed7ec4bc2e42c76042a82cd2e5272b373f5e47c6db81545fbc35\\SleepSync\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\sinob\\AppData\\Local\\SourceServer\\be453886bc05ed7ec4bc2e42c76042a82cd2e5272b373f5e47c6db81545fbc35\\SleepSync\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T17:28:26.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\SleepSync\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\SleepSync\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "SleepSync\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\SleepSync\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\SleepSync\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "SleepSync\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -66,14 +114,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\SleepSync\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\SleepSync\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "SleepSync\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\sinob\\Documents\\programming\\semester-3\\.net\\SleepSync\\SleepSync\\SleepSync\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mario\\ASP.NET\\Group Project\\Sleepsync\\SleepSync\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "SleepSync\\Views\\Home\\Index.cshtml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-26T16:47:44.448Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

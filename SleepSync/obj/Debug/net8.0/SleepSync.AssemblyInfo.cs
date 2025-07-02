@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SleepSync")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2aa6abb5fbd1b5c8ae3a0bf4bdad7410054077c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9aad526e061cdf07b8abfe31dc3011a9e1bd3c31")]
 [assembly: System.Reflection.AssemblyProductAttribute("SleepSync")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SleepSync")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
