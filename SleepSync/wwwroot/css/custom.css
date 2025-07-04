@@ -1,0 +1,36 @@
+/*Going for a dark theme since its for sleep haha*/
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: #1f1f1f !important; /*Using !important to override any other style*/
+}
+
+    .navbar a.nav-link, .navbar a.navbar-brand {
+        color: #f0f0f0 !important; 
+    }
+
+        .navbar a.nav-link:hover {
+            color: #00bcd4 !important;
+        }
+
+footer {
+    background-color: #1f1f1f;
+    color: #cccccc;
+    padding: 1rem;
+}
+
+h1, h2, h3 {
+    color: #90caf9;
+}
+
+a {
+    color: #64b5f6;
+}
+
+a:hover {
+    color: #00bcd4;
+}
