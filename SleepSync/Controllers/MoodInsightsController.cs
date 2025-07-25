@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SleepSync.Data;
 using SleepSync.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace SleepSync.Controllers
 {
+    [Authorize]
     public class MoodInsightsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -20,6 +22,7 @@ namespace SleepSync.Controllers
         }
 
         // GET: MoodInsights
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Set<MoodInsight>().Include(m => m.User);
@@ -27,6 +30,7 @@ namespace SleepSync.Controllers
         }
 
         // GET: MoodInsights/Details/5
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -46,6 +50,7 @@ namespace SleepSync.Controllers
         }
 
         // GET: MoodInsights/Create
+        [Authorize(Roles = "User,Administrator")]
         public IActionResult Create()
         {
             ViewData["UserId"] = new SelectList(_context.Set<ApplicationUser>(), "Id", "Id");
@@ -70,6 +75,7 @@ namespace SleepSync.Controllers
         }
 
         // GET: MoodInsights/Edit/5
+        [Authorize(Roles = "User,Administrator")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -123,6 +129,7 @@ namespace SleepSync.Controllers
         }
 
         // GET: MoodInsights/Delete/5
+        [Authorize(Roles = "User,Administrator")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
