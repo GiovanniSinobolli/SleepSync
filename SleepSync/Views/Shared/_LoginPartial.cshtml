@@ -22,5 +22,18 @@ else
     <li class="nav-item">
         <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
     </li>
+    <li>
+        <form method="post"
+              asp-controller="Account"
+              asp-action="ExternalLogin"
+              class="d-inline">
+            <button type="submit"
+                    name="provider"
+                    value="Google"
+                    class="nav-link btn btn-link text-dark">
+                Login with Google
+            </button>
+        </form>
+    </li>
 }
 </ul>
