@@ -53,7 +53,6 @@ namespace SleepSync.Controllers
         [Authorize(Roles = "User,Administrator")]
         public IActionResult Create()
         {
-            ViewData["UserId"] = new SelectList(_context.Set<ApplicationUser>(), "Id", "Id");
             return View();
         }
 
@@ -62,7 +61,7 @@ namespace SleepSync.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("TaskItemId,Title,Description,Date,IsCompleted,Mood,UserId")] TaskItem taskItem)
+        public async Task<IActionResult> Create([Bind("TaskItemId,Title,Description,Date,IsCompleted,Mood")] TaskItem taskItem)
         {
             if (ModelState.IsValid)
             {
@@ -70,7 +69,6 @@ namespace SleepSync.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UserId"] = new SelectList(_context.Set<ApplicationUser>(), "Id", "Id", taskItem.UserId);
             return View(taskItem);
         }
 
@@ -88,7 +86,6 @@ namespace SleepSync.Controllers
             {
                 return NotFound();
             }
-            ViewData["UserId"] = new SelectList(_context.Set<ApplicationUser>(), "Id", "Id", taskItem.UserId);
             return View(taskItem);
         }
 
@@ -97,7 +94,7 @@ namespace SleepSync.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("TaskItemId,Title,Description,Date,IsCompleted,Mood,UserId")] TaskItem taskItem)
+        public async Task<IActionResult> Edit(int id, [Bind("TaskItemId,Title,Description,Date,IsCompleted,Mood")] TaskItem taskItem)
         {
             if (id != taskItem.TaskItemId)
             {
@@ -124,7 +121,6 @@ namespace SleepSync.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UserId"] = new SelectList(_context.Set<ApplicationUser>(), "Id", "Id", taskItem.UserId);
             return View(taskItem);
         }
 
