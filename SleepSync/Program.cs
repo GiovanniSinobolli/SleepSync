@@ -23,6 +23,18 @@ builder.Services
         options.ClientSecret = googleSection["ClientSecret"];
     });
 
+var configuration = builder.Configuration;
+builder.Services
+    .AddAuthentication()
+    .AddFacebook(facebookOptions =>
+    {
+        facebookOptions.AppId =
+        configuration["Authentication:Facebook:AppId"];
+        facebookOptions.AppSecret =
+        configuration["Authentication:Facebook:AppSecret"];
+        facebookOptions.CallbackPath = "/signin-facebook";
+    });
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
