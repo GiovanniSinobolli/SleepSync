@@ -1,0 +1,35 @@
+﻿@model IEnumerable<SleepSync.Models.TaskItem>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center mb-5">
+    <h1 class="display-4">Welcome to SleepSync</h1>
+    <p class="lead">Your personal assistant for restful routines and mindful productivity.</p>
+    <div id="typed-text" class="mt-3 fs-5 fw-light"></div>
+</div>
+
+<div class="row g-4">
+    <div class="col-md-6">
+        <div class="card h-100 text-light">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Mood Insights</h5>
+                <p class="card-text">Track how your sleep affects your mood patterns.</p>
+                <div class="mt-auto">
+                    <a class="btn btn-outline-light" asp-controller="MoodInsights" asp-action="Index">Explore</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-md-6">
+        <div class="card h-100 text-light">
+            <div class="card-body">
+                <h5 class="card-title"> Task Planner</h5>
+                <p class="card-text">Structure your day around energy levels and sleep cycles. Prioritize smarter with SleepSync.</p>
+                <a class="btn btn-outline-light mt-2" asp-controller="TaskItems" asp-action="Index">Plan Tasks</a>
+            </div>
+        </div>
+    </div>
+</div>
