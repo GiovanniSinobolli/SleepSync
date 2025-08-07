@@ -22,7 +22,7 @@ namespace SleepSync.Controllers
         }
 
         // GET: MoodInsights
-        [Authorize(Roles = "Administrator")]
+        [Authorize(Roles = "User, Administrator")]
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Set<MoodInsight>().Include(m => m.User);

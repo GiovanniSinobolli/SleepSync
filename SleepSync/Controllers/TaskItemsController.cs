@@ -22,7 +22,7 @@ namespace SleepSync.Controllers
         }
 
         // GET: TaskItems
-        [Authorize(Roles = "Administrator")]
+        [Authorize(Roles = "User, Administrator")]
         public async Task<IActionResult> Index()
         {
             var tasks = await _context.TaskItems.Include(t => t.User).ToListAsync();
