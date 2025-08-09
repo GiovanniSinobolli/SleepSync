@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Mood Status";
+}
+
+<div class="container mt-5">
+    <h2>Mood Tracker</h2>
+    <hr />
+
+    @if (ViewBag.MoodStatus != null)
+    {
+        <div class="alert alert-info fs-4">
+            @ViewBag.MoodStatus
+        </div>
+
+        <p>You slept @ViewBag.HoursSlept hours in your last sleep session.</p>
+    }
+    else
+    {
+        <div class="alert alert-warning">
+            No sleep data available to determine mood.
+        </div>
+    }
+
+    <a href="/Sleep/Add" class="btn btn-primary mt-3">Log New Sleep</a>
+</div>

@@ -1,0 +1,63 @@
+﻿@using SleepSync.Models.Entities
+@model SleepSync.Models.Entities.SleepRecord
+
+<h1 class="mb-4">Edit Sleep Report</h1>
+
+@if (Model is null)
+{
+    <div class="alert alert-warning" role="alert">
+        No report was found with this ID.
+    </div>
+}
+else
+{
+    <form method="post" novalidate>
+        <div class="mb-3">
+            <label asp-for="BedTime" class="form-label">Went to Bed At</label>
+            <input type="time" class="form-control" asp-for="BedTime" id="bedTime" />
+            <span asp-validation-for="BedTime" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="WakeTime" class="form-label">Woke Up At</label>
+            <input type="time" class="form-control" asp-for="WakeTime" id="wokeUpTime" />
+            <span asp-validation-for="WakeTime" class="text-danger"></span>
+        </div>
+
+        <!-- Hidden SleepHours input -->
+        <input asp-for="SleepHours" type="hidden" id="hoursSlept" />
+
+        <div class="mb-3">
+            <label asp-for="AutoMood" class="form-label">How Did You Wake Up?</label>
+            <select asp-for="AutoMood" asp-items="Html.GetEnumSelectList<SupportEnums.MoodLevel>()" class="form-select">
+                <option value="">-- Select the Mood --</option>
+            </select>
+            <span asp-validation-for="AutoMood" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Notes" class="form-label">Any Dreams Maybe?</label>
+            <textarea class="form-control" asp-for="Notes" rows="3" placeholder="Describe any dreams or notes..."></textarea>
+            <span asp-validation-for="Notes" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Date" class="form-label">Current Date</label>
+            <input type="datetime-local" class="form-control" asp-for="Date" />
+            <span asp-validation-for="Date" class="text-danger"></span>
+        </div>
+
+        <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+
+            <button type="submit" class="btn btn-danger"
+                    asp-action="Delete"
+                    asp-controller="Sleep"
+                    name="Id"
+                    value="@Model.Id"
+                    onclick="return confirm('Are you sure you want to delete this report?');">
+                Delete Report
+            </button>
+        </div>
+    </form>
+}

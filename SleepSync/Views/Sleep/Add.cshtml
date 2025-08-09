@@ -1,0 +1,45 @@
+﻿@using SleepSync.Models.Entities
+@using static SleepSync.Models.Entities.SupportEnums
+
+@model SleepSync.Models.Viewmodels.AddSleepViewmodel
+
+<h1 class="mb-4">Add a New Sleep Report</h1>
+
+<form method="post" novalidate>
+    <div class="mb-3">
+        <label asp-for="BedTime" class="form-label">Went to bed At:</label>
+        <input type="time" class="form-control" asp-for="BedTime" id="bedTime" />
+        <span asp-validation-for="BedTime" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="WakeTime" class="form-label">Woke up At:</label>
+        <input type="time" class="form-control" asp-for="WakeTime" id="wokeUpTime" />
+        <span asp-validation-for="WakeTime" class="text-danger"></span>
+    </div>
+
+    <!-- Hidden SleepHours, consider showing a read-only field instead -->
+    <input asp-for="SleepHours" type="hidden" id="hoursSlept" />
+
+    <div class="mb-3">
+        <label asp-for="AutoMood" class="form-label">How did you wake up?</label>
+        <select asp-for="AutoMood" asp-items="Html.GetEnumSelectList<SupportEnums.MoodLevel>()" class="form-select">
+            <option value="">-- Select the Mood --</option>
+        </select>
+        <span asp-validation-for="AutoMood" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Notes" class="form-label">Any dreams maybe?</label>
+        <textarea class="form-control" asp-for="Notes" rows="3" placeholder="Describe any dreams or notes here..."></textarea>
+        <span asp-validation-for="Notes" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Date" class="form-label">Current Date:</label>
+        <input type="datetime-local" class="form-control" asp-for="Date" />
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
