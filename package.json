@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "gsap": "^3.13.0",
-    "ityped": "^1.0.3",
-    "velocity-animate": "^1.5.2"
-  }
-}
